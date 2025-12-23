@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+  display: block;
+}
+
+body{
+  background-color: rgb(246, 255, 123);
+}
+
+@font-face {
+  font-family: Gulax;
+  src: url("fonts/Gulax-Regular.otf");
+}
+
+.container{
+  display: flex;
+  font-family: Gulax;
+}
+
+#ui{
+  background-color: aqua;
+  width: 20vw;
+  height: 100vh;
+}
+
+label{
+  font-size: 1em;
+  text-align: center;
+}
+
+h1{
+  font-size: 2em;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+#canvasWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 80vw;
+  height: 100vh;
+  background-color: brown;
+}
+
